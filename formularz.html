@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <form action="https://formspree.io/oli.b@outlook.com" method="post"></form>
+    <form action="https://formspree.io/oli.b@outlook.com" method="POST">
 
     <!--  imię  -->
 
@@ -34,18 +34,18 @@
     <label for="select-city">Wybierz miasto</label><br>
 
     <select name="select-city" id="select-city">
-        <option value="Kraków">Kraków</option>
-        <option value="Warszawa">Warszawa</option>
-        <option value="Gdańsk">Gdańsk</option>
+     <option value="empty">---</option>
+     <option value="Kraków">Kraków</option>
+     <option value="Warszawa">Warszawa</option>
+     <option value="Gdańsk">Gdańsk</option>
     </select><br>
 
     <!--  płeć - radio  -->
-
-    <label for="plec">Płeć</label><br>
-    <input type="text" name="plec" id="plec"><br>
-
-    <input type="radio" name="plec" id="kobieta" value="kobieta">Kobieta
-    <input type="radio" name="plec" id="mezczyzna" value="mezczyzna">Mężczyzna<br>
+    
+    <input type="radio" name="plec" id="kobieta" value="kobieta">
+    <label for="plec">Kobieta</label>
+    <input type="radio" name="plec" id="mezczyzna" value="mezczyzna">
+    <label for="plec">Mężczyzna</label><br>
 
     <!-- zgoda na dane osobowe - checkbox -->
 
@@ -60,6 +60,8 @@
     <!--  wyślij  -->
 
     <input type="submit" value="Wyślij"><br>
+
+</form>
 
 </body>
 

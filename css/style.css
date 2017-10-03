@@ -1,0 +1,66 @@
+/*general*/
+body {
+    background-color: #fff;
+    width: 100%;
+}
+form {
+    padding: 15px;
+    width: 50%;
+    background-color: #213b50;
+    color: #ffffff;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+
+/*input*/
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 50%;
+}
+
+input {
+    background-color: #2b4a64;
+    border: 0;
+}
+
+input:focus {
+    background-color: #4e708c;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/*select*/
+select {
+    width: 50%;
+    background-color: #2b4a64;
+    border: 0
+}
+
+select:focus {
+    background-color: #4e708c;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+} 
+
+/*#wiadmosc*/
+#wiadomosc {
+    width: 50%;
+    background-color: #2b4a64;
+    border: 0
+}
+
+#wiadomosc:focus {
+    background-color: #4e708c;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+} 
+
+/*send*/
+input[type="submit"] {
+    background-color: limegreen;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100px;
+    height: 45px;
+    border: 0;
+}
